@@ -79,7 +79,7 @@ Date:   Mon Mar 28 18:11:57 2022 +0530
 ```
 $git reset commmit-hash
 ```
-- The staged changes that are not sure whether it should be committed can be stored in a stash area so that the changes won't be there and we can bring back those changes later. After making a change use the command,
+- The staged changes or unstaged changes of a tracked file that are not sure whether it should be committed can be stored in a stash area so that the changes won't be there and we can bring back those changes later, we use stash. After making a change use the command,
 ```
 $git stash
 ```
